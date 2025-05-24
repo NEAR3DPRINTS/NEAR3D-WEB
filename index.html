@@ -1,45 +1,83 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bienvenido a NEAR 3D PRINTS</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f2f2f2;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #f8f8f8, #e0f7fa);
       color: #333;
-      padding: 40px;
+      margin: 0;
+      padding: 0;
       text-align: center;
     }
-    h1 {
-      color: #2c3e50;
-    }
-    p {
-      font-size: 18px;
-      max-width: 600px;
-      margin: auto;
-    }
-    a {
-      display: inline-block;
-      margin: 20px 10px;
-      text-decoration: none;
-      background: #4CAF50;
+    header {
+      background-color: #00796b;
       color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
+      padding: 30px 20px;
     }
-    a:hover {
-      background: #45a049;
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    section h2 {
+      color: #00796b;
+    }
+    section p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 1.2em;
+    }
+    a.button {
+      display: inline-block;
+      background: #00796b;
+      color: white;
+      padding: 12px 25px;
+      margin-top: 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    a.button:hover {
+      background: #004d40;
+    }
+    footer {
+      background-color: #004d40;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #b2dfdb;
+      text-decoration: none;
+      margin: 0 10px;
     }
   </style>
 </head>
 <body>
-  <h1>¡Bienvenido a NEAR 3D PRINTS!</h1>
-  <p>Somos tu solución en impresión 3D personalizada. Desde llaveros, figuras y piezas hasta medallas inteligentes con tecnología NFC que realizarán tus impresiones más dinámicas.</p>
-  <p>Explora nuestros términos y políticas:</p>
-  <a href="privacy.html">Política de Privacidad</a>
-  <a href="terms.html">Términos de Servicio</a>
+  <header>
+    <h1>NEAR 3D PRINTS</h1>
+    <p>Soluciones inteligentes en impresión 3D</p>
+  </header>
+
+  <section>
+    <h2>Bienvenido</h2>
+    <p>Somos especialistas en crear soluciones funcionales y personalizadas a través de impresión 3D. Desde llaveros, figuras y piezas especiales, hasta medallas inteligentes con tecnología NFC que enlazan a apps web como nuestros certificados automáticos.</p>
+    <a href="privacy.html" class="button">Política de Privacidad</a>
+    <a href="terms.html" class="button">Términos y Condiciones</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 NEAR 3D PRINTS | Todos los derechos reservados</p>
+    <p>
+      <a href="https://www.near3dprints.online" target="_blank">Sitio oficial</a> |
+      <a href="https://www.facebook.com/share/16V1bw11f6/" target="_blank">Facebook</a>
+    </p>
+  </footer>
 </body>
 </html>
